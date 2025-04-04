@@ -17,10 +17,10 @@ minimal_mistakes_skin    : "dark" # "default" # "air", "aqua", "contrast", "dark
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Site Title"
+title                    : "zkzkzkzkzkzz"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "zkzkzkzkzkzz"
+name                     : "SuperToilet"
 description              : "An amazing website."
 url                      : "https://zkzkzkzkzkzz.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -89,13 +89,13 @@ yandex_site_verification :
 baidu_site_verification  :
 
 # Social Sharing
-twitter:
-  username               :
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : # Open Graph/Twitter default site image
+# twitter:
+#   username               :
+# facebook:
+#   username               :
+#   app_id                 :
+#   publisher              :
+# og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
