@@ -5,11 +5,9 @@ main:
   - title: "Github"
     url: https://github.com/zkzkzkzkzkzz
     
-categories:
+side-category:
   - title: "Project BC 개발일지"
-    url: /categories/projectBC/
-  - title: "카테고리B"
-    url:  "/CategoryB"
+    url: /projectBC/
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
