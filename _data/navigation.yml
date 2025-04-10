@@ -1,7 +1,18 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Home"
+    url: https://zkzkzkzkzkzz.github.io/
+  - title: "Github"
+    url: https://github.com/zkzkzkzkzkzz
+    
+sidebar-category:
+  - title: "카테고리"
+    children:
+      - title: "블로그"
+        url: "/blog"
+      - title: "카테고리B"
+        url:  "/CategoryB"
+
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
