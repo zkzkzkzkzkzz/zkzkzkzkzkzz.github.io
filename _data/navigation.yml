@@ -6,12 +6,10 @@ main:
     url: https://github.com/zkzkzkzkzkzz
     
 sidebar-category:
-  - title: "카테고리"
-    children:
-      - title: "블로그"
-        url: "/blog"
-      - title: "카테고리B"
-        url:  "/CategoryB"
+  - title: "블로그"
+    url: "/blog"
+  - title: "카테고리B"
+    url:  "/CategoryB"
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
