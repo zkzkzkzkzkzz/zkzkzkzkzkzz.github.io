@@ -7,7 +7,7 @@ main:
     
 side-category:
   - title: "projectBC"
-    url: "/projectBC"
+    url: /projectBC/
   - title: "blog"
     url: "/blog"
 
