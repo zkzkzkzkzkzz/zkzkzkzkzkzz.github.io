@@ -1,11 +1,11 @@
 ---
 title: "projectBC"
-layout: archive
-permalink: /projectBC
+layout: category
+permalink: /categories/projectBC/
 author_profile: true
-taxonomy: Project BC 개발일지
+taxonomy: projectBC
 sidebar:
-  nav: "sidebar-category"
+  nav: "categories"
 ---
 
 
