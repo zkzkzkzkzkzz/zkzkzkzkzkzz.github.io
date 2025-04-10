@@ -50,6 +50,9 @@
   h4,
   h5,
   h6 {
+    border-bottom: none;
+    box-shadow: none;
+    padding-bottom: 0;
     margin-bottom: 0;
     font-family: $sans-serif-narrow;
   }
