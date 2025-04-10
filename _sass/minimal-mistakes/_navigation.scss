@@ -487,17 +487,12 @@
 }
 
 .nav__sub-title {
-  display: block;
-  margin: 1em 0 0 0;
-  padding: 0 0 0 0.3em;
-  font-size: $type-size-6;
-  font-weight: 600;
-   
-  // margin: 0.5rem 0;
-  // padding: 0.25rem 0;
+  display: block;   
+  margin: 0.5rem 0;
+  padding: 0.25rem 0;
   font-family: $sans-serif-narrow;
-  // font-size: $type-size-6;
-  // font-weight: bold;
+  font-size: $type-size-6;
+  font-weight: bold;
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;
 }
@@ -517,15 +512,10 @@
 
   .nav__title {
     color: #fff;
-    // font-size: $type-size-6;
-    // background: $primary-color;
-    // border-start-start-radius: $border-radius;
-    // border-start-end-radius: $border-radius;
     font-size: $type-size-6;
-    background: inherit;
-    border-top-left-radius: $border-radius;
-    border-top-right-radius: $border-radius;
-    border-bottom: 1.5px solid rgba($primary-color, 0.3);
+    background: $primary-color;
+    border-start-start-radius: $border-radius;
+    border-start-end-radius: $border-radius;
   }
 
   // Scrollspy marks toc items as .active when they are in focus
