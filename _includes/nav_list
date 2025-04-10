@@ -3,8 +3,11 @@
   <input id="ac-toc" name="accordion-toc" type="checkbox" />
   <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</label>
   <ul class="nav__items">
-    {% for navname in include.nav %}
-      {% assign navigation = site.data.navigation[navname] %}
+    <!-- <li>
+      <span class="nav__total">🌴 Total Posts: {{site.posts | size}}</span>
+    </li> -->
+
+
       {% for nav in navigation %}
         <li>
           {% if nav.url %}
