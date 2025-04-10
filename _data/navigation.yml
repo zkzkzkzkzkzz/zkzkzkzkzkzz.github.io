@@ -5,9 +5,9 @@ main:
   - title: "Github"
     url: https://github.com/zkzkzkzkzkzz
     
-sidebar-category:
-  - title: "블로그"
-    url: "/blog"
+categories:
+  - title: "Project BC 개발일지"
+    url: /categories/projectBC/
   - title: "카테고리B"
     url:  "/CategoryB"
 
