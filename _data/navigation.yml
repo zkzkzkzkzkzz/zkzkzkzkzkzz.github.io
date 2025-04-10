@@ -4,12 +4,10 @@ main:
     url: https://zkzkzkzkzkzz.github.io/
   - title: "Github"
     url: https://github.com/zkzkzkzkzkzz
-    
-side-category:
+
+categories:
   - title: "projectBC"
-    url: /projectBC/
-  - title: "blog"
-    url: "/blog"
+    url: /categories/projectBC/
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
