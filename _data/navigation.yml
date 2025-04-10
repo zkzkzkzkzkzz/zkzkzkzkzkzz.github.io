@@ -7,7 +7,7 @@ main:
 
 categories:
   - title: "Project BC 개발일지"
-    url: /categories/projectBC/
+    url: /projectBC/
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
