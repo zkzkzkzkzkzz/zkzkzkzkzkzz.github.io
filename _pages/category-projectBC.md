@@ -1,7 +1,7 @@
 ---
 title: "Project BC 개발일지"
 layout: archive
-permalink: /categories/projectBC/
+permalink: /projectBC/
 author_profile: true
 taxonomy: Project BC 개발일지
 sidebar:
