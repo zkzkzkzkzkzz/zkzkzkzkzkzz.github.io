@@ -99,10 +99,11 @@
       @include clearfix();
       position: -webkit-sticky;
       position: sticky;
-      top: 2em;
+      top: 4em;
       float: inline-end;
 
       .toc {
+         border: 0px solid $border-color;
         .toc__menu {
           overflow-y: auto;
           max-height: calc(100vh - 7em);
@@ -112,7 +113,8 @@
   }
 
   @include breakpoint($x-large) {
-    width: $right-sidebar-width;
+    // width: $right-sidebar-width;
+    width: 240px;
     margin-inline-end: -1 * $right-sidebar-width;
   }
 }
