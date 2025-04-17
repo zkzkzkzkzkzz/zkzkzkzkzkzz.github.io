@@ -9,6 +9,9 @@ categories:
   - title: "Project BC 개발일지"
     url: /projectBC/
 
+  - title: "그래픽스"
+    url: /graphics/
+
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
