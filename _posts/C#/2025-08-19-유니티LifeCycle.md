@@ -58,7 +58,7 @@ last_modified_at: 2025-08-19
 
 ## 생명주기 함수 호출 순서
 
-<img width="384" height="799" alt="lifecycle" src="https://github.com/user-attachments/assets/7d82241c-e02f-4c69-89a8-cf831e6c6356" />
+![lifecycle](https://github.com/user-attachments/assets/f1ef984d-5de8-4d9b-9c55-a14238bc98fb)
 
 [이벤트 함수의 실행 순서](https://docs.unity3d.com/kr/2019.4/Manual/ExecutionOrder.html)
 
