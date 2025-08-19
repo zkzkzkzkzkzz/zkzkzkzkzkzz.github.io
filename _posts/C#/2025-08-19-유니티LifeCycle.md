@@ -63,8 +63,12 @@ last_modified_at: 2025-08-19
 [이벤트 함수의 실행 순서](https://docs.unity3d.com/kr/2019.4/Manual/ExecutionOrder.html)
 
 기본적인 호출 순서는 위 이미지를 따른다.\
-주요 함수들만 추려보자면 **Awake -> OnEnable -> Start -> FixedUpdate -> OnTriggerXXX
--> OnCollisionXXX -> Update -> LateUpdate -> OnApplicationQuit -> OnDisable -> OnDestroy**라고 볼 수 있다.
+주요 함수들만 추려보자면
+```cs
+Awake -> OnEnable -> Start -> FixedUpdate -> OnTriggerXXX -> OnCollisionXXX
+-> Update -> LateUpdate -> OnApplicationQuit -> OnDisable -> OnDestroy
+```
+와 같은 순서를 따른다고 할 수 있다.
 
-다만, FixedUpdate는 프레임과 독립적으로 물리 틱마다 끼어들며, 기본값은 0.02초이다.\
+다만, FixedUpdate는 프레임과 독립적으로 물리 틱마다 끼어들며 (기본값 0.02초),\
 프레임이 느려지면 한 프레임 안에서 여러 번 호출되고, 프레임이 빨라지면 해당 프레임에선 호출되지 않을 수도 있다.
