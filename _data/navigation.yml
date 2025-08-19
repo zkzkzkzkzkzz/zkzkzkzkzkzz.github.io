@@ -12,8 +12,8 @@ categories:
   - title: "그래픽스"
     url: /graphics/
 
-  - title: "C#"
-    url: /C#/
+  - title: "C#/유니티"
+    url: /C#Unity/
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
