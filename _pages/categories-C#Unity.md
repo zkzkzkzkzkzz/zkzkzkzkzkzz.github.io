@@ -1,13 +1,13 @@
 ---
-title: "C#"
+title: "C#/Unity"
 layout: archive
-permalink: /C#/
+permalink: /C#Unity/
 author_profile: true
-taxonomy: C#
+taxonomy: C#Unity
 sidebar:
   nav: "categories"
 ---
 
 
-{% assign posts = site.categories.C# %}
+{% assign posts = site.categories.C#Unity %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
