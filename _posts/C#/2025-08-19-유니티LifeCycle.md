@@ -64,7 +64,7 @@ last_modified_at: 2025-08-19
 
 기본적인 호출 순서는 위 이미지를 따른다.\
 주요 함수들만 추려보자면 **Awake -> OnEnable -> Start -> FixedUpdate -> OnTriggerXXX
--> OnCollisionXXX -> Update -> LateUpdate -> OnApplicationQuit -> OnDisable -> OnDestroy**라고 볼 수 있다.\
+-> OnCollisionXXX -> Update -> LateUpdate -> OnApplicationQuit -> OnDisable -> OnDestroy**라고 볼 수 있다.
 
 다만, FixedUpdate는 프레임과 독립적으로 물리 틱마다 끼어들며, 기본값은 0.02초이다.\
 프레임이 느려지면 한 프레임 안에서 여러 번 호출되고, 프레임이 빨라지면 해당 프레임에선 호출되지 않을 수도 있다.
