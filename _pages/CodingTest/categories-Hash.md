@@ -1,7 +1,7 @@
 ---
 title: "해시"
 layout: archive
-permalink: /Hash
+permalink: /Hash/
 author_profile: true
 sidebar:
   nav: "categories"
