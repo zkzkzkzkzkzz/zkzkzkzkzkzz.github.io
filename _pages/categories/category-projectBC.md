@@ -3,7 +3,6 @@ title: "Project BC 개발일지"
 layout: archive
 permalink: categories/projectBC
 author_profile: true
-sidebar_main: true
 ---
 
 
