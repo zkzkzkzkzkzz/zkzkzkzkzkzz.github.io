@@ -15,6 +15,11 @@ categories:
   - title: "C#/유니티"
     url: /Unity/
 
+  - title: "코딩테스트"
+    children:
+      - title: "해시"
+      url: /CodingTest/Hash/
+
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
