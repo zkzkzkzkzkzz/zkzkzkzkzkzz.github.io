@@ -7,3 +7,30 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+
+//
+// link underline 제거
+//
+// 기본 링크에 underline이 가독성을 떨어트려 제거하였습니다.
+//
+// 원본위치: [remote-theme]/_sass/minimal-mistakes/_basee.scss
+//
+a {
+  text-decoration: none;                // 추가된 코드입니다.
+
+  &:focus {
+    @extend %tab-focus;
+  }
+
+  &:visited {
+    color: $link-color-visited;
+  }
+
+  &:hover {
+    color: $link-color-hover;
+    outline: 0;
+  }
+}
+
+
