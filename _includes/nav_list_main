@@ -15,11 +15,26 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">Coding Test</span>
+        <span class="nav__sub-title">C#/유니티</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Programmers" %}
-                        <li><a href="/categories/programmers" class="">프로그래머스 </a></li>
+                    {% if category[0] == "Unity" %}
+                        <li><a href="/categories/Unity" class="">유니티 </a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "graphics" %}
+                        <li><a href="/categories/graphics" class="">그래픽스 </a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">코딩테스트</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Hash" %}
+                        <li><a href="/categories/Hash" class="">해시 </a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
