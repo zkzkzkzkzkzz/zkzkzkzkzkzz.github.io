@@ -334,7 +334,7 @@ body {
   }
 }
 
-.page__taxonomy-item {
+.page__taxonomy-item p-category {
   display: inside;
   margin-inline-end: 5px;
   margin-bottom: 8px;
@@ -350,12 +350,12 @@ body {
 }
 
 .page__taxonomy-item-category {
-  display: inside;
+  display: inline-block;
   margin-right: 5px;
   margin-bottom: 8px;
   padding: 3px 8px;
   text-decoration: none;
-  border: 1px solid mix(#000, $border-color, 25%);
+  border: 1px solid mix(#51555d, $border-color, 25%);
   border-radius: $border-radius;
 	  
   &:hover {
