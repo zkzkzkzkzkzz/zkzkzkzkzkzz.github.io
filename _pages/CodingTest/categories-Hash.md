@@ -1,7 +1,7 @@
 ---
 title: "해시"
 layout: archive
-permalink: /categories/Hash/
+permalink: /CodingTest/Hash/
 author_profile: true
 sidebar:
   nav: "categories"
