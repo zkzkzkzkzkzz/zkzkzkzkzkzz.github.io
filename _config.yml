@@ -115,6 +115,7 @@ analytics:
 author:
   name             : "SuperToilet"
   avatar           : "/assets/images/eolteng.png"
+  home             : "/"
   # bio              : "I am an **amazing** person."
   # location         : "Somewhere"
   # email            :
